@@ -12,8 +12,7 @@ const Table = ({ sat }) => {
         </tr>
         </thead>
         <tbody>
-        {sat.map((data, id) => {
-        // })
+        {sat?.map((data, id) => {
 
           return (
 
